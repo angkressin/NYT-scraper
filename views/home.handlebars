@@ -1,0 +1,12 @@
+<div class="container">
+<p>The results are below</p>
+{{#each articles}}
+<div class="card">
+  <div class="card-body">
+    <p>Title: {{this.title}}</p>
+    <p>Link: {{this.link}}</p>
+    <a href="/save" class="btn btn-primary">save</a>
+  </div>
+</div>
+{{/each}}
+</div>
